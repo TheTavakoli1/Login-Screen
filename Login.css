@@ -1,0 +1,124 @@
+/* Font */
+@font-face {
+  font-family: yekan;
+  src: url(./Font/Farsi/IRANYekanWeb-Medium.eot);
+  src: url(./Font/Farsi/IRANYekanWeb-Medium.woff);
+  src: url(./Font/Farsi/IRANYekanWeb-Medium.woff2);
+  src: url(./Font/Farsi/IRANYekanWeb-Medium.ttf);
+}
+/* Def Main_Wrapper */
+div.main_wrapper {
+  width: 100%;
+  height: auto;
+}
+/* Def main_From_box */
+div.main_wrapper form.login-Box {
+  width: 370px;
+  height: auto;
+  margin: 180px auto;
+  border-radius: 8px;
+  text-align: center;
+  padding: 32px;
+  box-sizing: border-box;
+  border: 0.9px solid lightgray;
+}
+/* Def photo SVG */
+div.main_wrapper form.login-Box div.logotype svg {
+  width: 140px;
+  height: 40px;
+  margin: 0px auto;
+}
+/* Def sabtenam */
+div.main_wrapper form.login-Box div.register {
+  color: black;
+  margin-top: 16px;
+  text-align: right;
+  font-family: yekan;
+  font-size: 1rem;
+  font-weight: 700;
+}
+div.main_wrapper form.login-Box div.register span.Login {
+  font-weight: 700;
+  font: yekan;
+}
+/* div.main_wrapper form.login-Box div.register span.vertical-line {
+  width: 1px;
+  height: 1px;
+  background-color: black;
+  margin-right: 3px;
+  margin-left: 3px;
+  font-family: yekan;
+} */
+div.main_wrapper form.login-Box div.register span.register {
+  font-weight: 900;
+  font: yekan;
+}
+/* Def text (salam & ...) */
+div.main_wrapper form.login-Box div.text {
+  color: #3f4064;
+  direction: rtl;
+  text-align: right;
+  margin-top: 29px;
+  font-family: yekan;
+  font-size: 11px;
+  font-weight: 400;
+}
+div.main_wrapper form.login-Box div.text p.text {
+  margin-bottom: 16px;
+  margin-top: -18px;
+}
+/* Def Input (number) */
+div.main_wrapper form.login-Box div.input input {
+  width: 100%;
+  height: 45px;
+  margin-top: 16px;
+  border-radius: 8px;
+  display: block;
+  margin: 16px auto;
+  border: 1px solid rgb(131, 207, 207);
+  direction: rtl;
+}
+div.main_wrapper form.login-Box:active div.input input {
+  border: 1px solid brown;
+}
+div.main_wrapper form.login-Box div.input p {
+  text-align: right;
+  color: #3f4064;
+  font-family: yekan;
+  font-size: 10px;
+  margin-top: -10px;
+}
+div.main_wrapper form.login-Box:active div.input p {
+  color: brown;
+}
+/* Def nutton (vorod) */
+div.main_wrapper form.login-Box div.input a {
+  display: inline-block;
+  line-height: 45px;
+  width: 100%;
+  height: 45px;
+  margin-top: 16px;
+  color: whitesmoke;
+  background-color: rgb(238, 64, 85);
+  border-radius: 8px;
+  border: none;
+  font-family: yekan;
+}
+/* Def Privacy */
+div.main_wrapper form.login-Box p.low {
+  text-align: center;
+  font-family: yekan;
+  margin-top: 16px;
+  font-weight: 400;
+  color: #3f4064;
+  font-size: 10px;
+}
+
+:link {
+  color: #008eb2;
+  text-decoration: none;
+}
+:visited {
+  color: #008eb2;
+  text-decoration: none;
+}
